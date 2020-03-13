@@ -1,0 +1,21 @@
+<!--pages/wxml/wxml.wxml-->
+<text>pages/wxml/wxml.wxml</text>
+<!-- 绝对路径 -->
+<!-- <import src="/wxml/templete.wxml"/> -->
+<!-- 相对路径 -->
+<import src="../../wxml/templete.wxml"/>
+<include src="../../wxml/templete.wxml"/>
+<!-- <template name="contentItem">
+  <button size="mini">{{btnText}}</button>
+  <view>{{content}}</view>
+</template> -->
+
+<!-- <template is="contentItem" data="{{btnText:'go',content:'hi'}}"/>
+<template is="contentItem" data="{{btnText:'go',content:'hi'}}"/>
+<template is="contentItem" data="{{btnText:'go',content:'hi'}}"/>
+<template is="contentItem" data="{{btnText:'go',content:'hi'}}"/> -->
+
+<template is="contentItem" data="{{btnText:'btn',content:'hi'}}"/>
+<template is="contentItem" data="{{btnText:'警告',content:'hito'}}"/>
+<template is="contentItem" data="{{btnText:'点击',content:'hiworld'}}"/>
+<template is="contentItem" data="{{btnText:'登录',content:'hihello'}}"/>
